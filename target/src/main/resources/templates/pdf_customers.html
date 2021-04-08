@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Customers</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<img class="logo" src="images/logo.png" />
+	
+	Login User: <div th:text="${loginUser.loginName}"></div><br/>
+		
+	Residing Country: <div th:text="${loginUser.residingCountry}"></div> <br/> <br/>	
+	
+	<span class="titles-style"
+		th:text="|Customers / Count: ${#lists.size(customers)}|"></span>
+
+	<!-- Customers Table -->
+	<div id="customers">
+		<div th:if="${not #lists.isEmpty(customers)}">
+			<table class="customers_table paginate-table">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>Last Name</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="customer : ${customers}">
+						<td th:text="${customer?.id}"></td>
+						<td th:text="${customer?.name}"></td>
+						<td th:text="${customer?.lastName}"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+</body>
+</html>

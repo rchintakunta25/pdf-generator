@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Implementation-Title: pdf generator using html template
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: Rahul
+Implementation-Vendor-Id: com.poc
+Class-Path: lib/spring-boot-starter-web-2.3.4.RELEASE.jar lib/spring-b
+ oot-starter-2.3.4.RELEASE.jar lib/spring-boot-2.3.4.RELEASE.jar lib/s
+ pring-boot-autoconfigure-2.3.4.RELEASE.jar lib/spring-boot-starter-lo
+ gging-2.3.4.RELEASE.jar lib/logback-classic-1.2.3.jar lib/logback-cor
+ e-1.2.3.jar lib/log4j-to-slf4j-2.13.3.jar lib/log4j-api-2.13.3.jar li
+ b/jul-to-slf4j-1.7.30.jar lib/jakarta.annotation-api-1.3.5.jar lib/sn
+ akeyaml-1.26.jar lib/spring-boot-starter-json-2.3.4.RELEASE.jar lib/j
+ ackson-databind-2.11.2.jar lib/jackson-annotations-2.11.2.jar lib/jac
+ kson-core-2.11.2.jar lib/jackson-datatype-jdk8-2.11.2.jar lib/jackson
+ -datatype-jsr310-2.11.2.jar lib/jackson-module-parameter-names-2.11.2
+ .jar lib/spring-boot-starter-tomcat-2.3.4.RELEASE.jar lib/tomcat-embe
+ d-core-9.0.38.jar lib/jakarta.el-3.0.3.jar lib/tomcat-embed-websocket
+ -9.0.38.jar lib/spring-web-5.2.9.RELEASE.jar lib/spring-beans-5.2.9.R
+ ELEASE.jar lib/spring-webmvc-5.2.9.RELEASE.jar lib/spring-aop-5.2.9.R
+ ELEASE.jar lib/spring-context-5.2.9.RELEASE.jar lib/spring-expression
+ -5.2.9.RELEASE.jar lib/spring-core-5.2.9.RELEASE.jar lib/spring-jcl-5
+ .2.9.RELEASE.jar lib/spring-boot-starter-thymeleaf-2.3.4.RELEASE.jar 
+ lib/thymeleaf-spring5-3.0.11.RELEASE.jar lib/thymeleaf-3.0.11.RELEASE
+ .jar lib/attoparser-2.0.5.RELEASE.jar lib/unbescape-1.1.6.RELEASE.jar
+  lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar lib/flying-saucer-p
+ df-9.1.20.jar lib/itext-2.1.7.jar lib/bcmail-jdk14-1.64.jar lib/bcpki
+ x-jdk14-1.64.jar lib/bctsp-jdk14-1.46.jar lib/bcprov-jdk14-1.64.jar l
+ ib/flying-saucer-core-9.1.20.jar lib/lombok-1.18.12.jar lib/jsoup-1.1
+ 3.1.jar lib/slf4j-api-1.7.30.jar lib/itext-asian-5.2.0.jar lib/kernel
+ -7.1.12.jar lib/io-7.1.12.jar lib/bcpkix-jdk15on-1.64.jar lib/bcprov-
+ jdk15on-1.64.jar lib/html2pdf-3.0.1.jar lib/forms-7.1.12.jar lib/layo
+ ut-7.1.12.jar lib/svg-7.1.12.jar lib/styled-xml-parser-7.1.12.jar
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://spring.io/projects/spring-boot/pdf-generat
+ or-using-html-template
+Created-By: Maven Integration for Eclipse
+Main-Class: com.poc.Bootstrap
+
